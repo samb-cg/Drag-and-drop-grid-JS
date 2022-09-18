@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+header{
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 0.2rem 0rem;
+    margin-bottom: 1rem;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.justify-center{
+    justify-content: center;
+}
+.bg-red{
+	background-color: red;
+}
+#gridContainer{
+    margin: 0;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.05);
+}
+.grid-item-list{
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.grid-item{
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+	background-color: white;
+}
+.grid-modal{
+    width: 100%;
+    overflow: hidden;
+}
+.grid-modal-header{
+    height: 2rem;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-modal-title{
+    user-select: none;
+    pointer-events: none;
+    font-size: 1.3rem;
+}
+.grid-modal-body{
+    background-color: white;
+	display: flex;
+	height: 100%;
+}
+.grid-modal-txt{
+    margin-left: 0.2rem;
+}
+.grid-shadow{
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
